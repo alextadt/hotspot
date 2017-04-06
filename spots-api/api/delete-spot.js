@@ -1,5 +1,6 @@
 //delete-spot.js
 
+<<<<<<< HEAD
 
 
 module.exports = function (db) {
@@ -10,5 +11,10 @@ module.exports = function (db) {
       if(err) throw err;
 
   res.json('Spot deleted');
+=======
+module.exports = function () {
+  return function (req, res) {
+    res.send('spot deleted');
+>>>>>>> 998dc4cd00c296f707e9d615857d9ece4318cb06
   }
 }

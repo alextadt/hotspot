@@ -19,7 +19,9 @@
   "dependencies": {
     "body-parser": "^1.17.0",
     "cors": "^2.8.1",
-    "express": "^4.15.0"
+    "dotenv": "^4.0.0",
+    "express": "^4.15.0",
+    "mongodb": "^2.2.25"
   },
   "devDependencies": {
     "mocha": "^3.2.0",
